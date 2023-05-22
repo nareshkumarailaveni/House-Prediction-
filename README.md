@@ -28,7 +28,7 @@ We are required to model the price of houses with the available independent vari
 
 - Lasso Regression model can be used to make inferences. This is based on high Test R2 score and RMSE values using best alpha.
 
-- From R2 and adj R2 value of both train and test dataset we could conclude that the above variables can well explain more than 80% of House price prediction. 
+- From R2 and adj R2 value of both train and test dataset we could conclude that the selected variables can explain more than 80% of House price prediction. 
 
 - The top 10 variables based on the coeffiencients selected inorder and significant in predicting the house prices are.
     

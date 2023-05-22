@@ -26,15 +26,17 @@ We are required to model the price of houses with the available independent vari
 ## Conclusions
 - The R-squared score on predicted data from test dataset is 0.797 for Linear, 0.798 for Ridge and 0.8006 for Lasso Regression.
 
+- Lasso Regression model can be used to make inferences. This is based on high Test R2 score and RMSE values using best alpha.
+
 - From R-Sqaured and adj R-Sqaured value of both train and test dataset we could conclude that the above variables can well explain more than 80% of House price prediction. 
 
 - The top 10 variables based on the coeffiencients selected inorder and significant in predicting the house prices are.
     
-    __For Linear and Ridge Regression:__
+    __From Linear and Ridge Regression:__
     OverallQual_10, LotArea, OverallQual_9, OverallQual_8, MasVnrArea, KitchenAbvGr, 3SsnPorch, OverallQual_7, OverallCond_9, 
     LowQualFinSF
      
-    __For Lasso Regression:__
+    __From Lasso Regression:__
     OverallQual_10, OverallQual_9, LotArea, OverallQual_8, MasVnrArea, KitchenAbvGr, OverallQual_7, OverallCond_9, WoodDeckSF, 
     HalfBath   
     
